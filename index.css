@@ -17,13 +17,23 @@ body{
     text-align: center;
 }
 
-#stopwatch{
-    font-size: 75px;
+.time-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     margin-bottom: 25px;
     color: darkblue;
-    border: 1px solid darkgoldenrod;
     border-radius: 15px;
-    padding: 5px 15px;
+    padding: 0 15px;
+}
+
+#stopwatch{
+    font-size: 65px;
+}
+
+.time-section>span{
+    font-size: 48px;
+    margin-left: 10px;
 }
 
 .buttons{
@@ -32,7 +42,7 @@ body{
     gap: 15px;
 }
 
-.buttons button{
+.buttons>button{
     padding: 12px 30px;
     border-radius: 8px;
     font-size: 18px;
